@@ -33,6 +33,37 @@
       </form>
       <div class="displayMovie">
       </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Register a new account</h3>
+          <div class="form-group">
+            <form class="initialDepositForm" action="index.html" method="post">
+              <label for="name">Name: </label><br>
+              <input id="initialDepositNameIn" type="text" value=""><br>
+              <label for="name">Deposit Amount: </label><br>
+              <input id="initialDepositAmountIn" type="number"value="">
+              <br><br>
+              <button class="hide-button" type="submit" name="button">Register</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h3>Make a deposit or a withdrawal</h3>
+          <div class="form-group">
+            <form class="depositForm" action="index.html" method="post">
+              <label for="name">Deposit Amount: </label><br>
+              <input id="depositAmountIn" type="number"value="0"><br>
+              <label for="withdrawalAmountIn">Withdrawal Amount</label><br>
+              <input id="withdrawalAmountIn" type="number" name="name" value="0">
+              <br><br>
+              <button type="submit" name="button">Go !</button>
+            </form>
+        </div>
+        <h1 class="balance">Balance: </h1>
+      </div>
     </div>
+
+
+
   </body>
 </html>
