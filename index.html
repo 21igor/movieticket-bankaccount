@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Tickets and Bank Account Exercise</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="ticketForm" action="index.html">
+        <label for="whichMovie">Movie</label>
+        <select class="whichMovie">
+          <option value="1">The Godfather</option>
+          <option value="2">Terminator</option>
+          <option value="3">Operation Y</option>
+        </select>
+        <label for="whichAge">Your age</label>
+        <select class="whichAge">
+          <option value="1">under 16</option>
+          <option value="3">16 - 65</option>
+          <option value="2">65 and older</option>
+        </select>
+        <label for="whichTime">Time</label>
+        <select class="whichTime">
+          <option value="1">10a.m. - 3p.m.</option>
+          <option value="3">3p.m. - 9p.m.</option>
+          <option value="2">9p.m. - midnight</option>
+        </select>
+        <button type="submit" name="button">Checkout</button>
+      </form>
+      <div class="displayMovie">
+      </div>
+    </div>
+  </body>
+</html>
